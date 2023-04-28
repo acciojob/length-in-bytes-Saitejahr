@@ -1,6 +1,6 @@
 const byteSize = (str) => {
   // write your code here
-	//const utf8Bytes = new TextEncoder().encode(str);
+	const utf8Bytes = new TextEncoder().encode(str);
   // Return the length of the array (i.e., the size of the string in bytes)
   return str.length;
 };
